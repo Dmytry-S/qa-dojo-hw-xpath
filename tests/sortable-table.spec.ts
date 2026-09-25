@@ -12,6 +12,8 @@ test('TC-002, Sorting is correct', async ({ page }) => {
     await page.goto('/laboratory/interactions');
     await page.locator('//button[@data-testid="interactions-sort-name"]').click();
     await expect(page.locator(`//tbody/tr[1]/td[2]`)).toHaveText('Створення статті');
+    await expect(page.locator(`//tbody/tr[4]/td[2]`)).toHaveText('Авторизація');
     await page.locator('//button[@data-testid="interactions-sort-name"]').click();
     await expect(page.locator(`//tbody/tr[1]/td[2]`)).toHaveText('Авторизація');
+    await expect(page.locator(`//tbody/tr[4]/td[2]`)).toHaveText('Створення статті');
 });
