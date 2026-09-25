@@ -1,0 +1,26 @@
+{
+  "name": "qa_dojo_xpath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytry-S/qa-dojo-hw-xpath.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dmytry-S/qa-dojo-hw-xpath/issues"
+  },
+  "homepage": "https://github.com/Dmytry-S/qa-dojo-hw-xpath#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3"
+  }
+}
